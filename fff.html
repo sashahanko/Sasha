@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/logo1.png">
+  <link rel="stylesheet" href="style4.css">
+  <title>ЖМГГ №23</title>
+</head>
+<body>
+
+  <!--Header-->
+  <header class="header">
+    <div class="header__wrapper container">
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="rozklad.html">Розклад</a></li>
+          <li><a href="history.html">Історія школи</a></li>
+          <li><a href="fff.html" target="_parent">Фото-Галерея Школи</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!--Info-->
+  <section class="info">
+    <div class="info__wrapper container">
+      <div class="info__content">
+      	 <div class="info__title"><h1>ЖИТОМИРСЬКА МІСЬКА ГУМАНІТАРНА ГІМНАЗІЯ №23</h1></div>
+</head>
+
+<body>
+
+  <p><img id="largeImg" src="image/bcc.png" alt="Large image"></p>
+
+  <ul id="thumbs">
+    <!-- браузер показывает небольшую встроенную подсказку из атрибута "title" при наведении курсора на текст -->
+    <li>
+      <a href="image/bcc.png" title="Фото Школи"><img src="image/bcmini.png"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img3-lg.jpg" title="Image 3"><img src="https://en.js.cx/gallery/img3-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img4-lg.jpg" title="Image 4"><img src="https://en.js.cx/gallery/img4-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img5-lg.jpg" title="Image 5"><img src="https://en.js.cx/gallery/img5-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img6-lg.jpg" title="Image 6"><img src="https://en.js.cx/gallery/img6-thumb.jpg"></a>
+    </li>
+  </ul>
+
+  <script>
+    thumbs.onclick = function(event) {
+      let thumbnail = event.target.closest('a');
+
+      if (!thumbnail) return;
+      showThumbnail(thumbnail.href, thumbnail.title);
+      event.preventDefault();
+    }
+
+    function showThumbnail(href, title) {
+      largeImg.src = href;
+      largeImg.alt = title;
+    }
+  </script>
+
+ <div class="info__blocks">
+          <div class="info__block block">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer__wrapper container">
+
+      <div class="footer__logo">
+        <img src="image/logo1.png" alt="">
+      </div>
+
+      <div class="footer__about-us">
+        <div class="footer__caption"><h3>Про нас</h3></div>
+        <div class="footer__text"><p>Ми знаходимося на вулиці Лятошинського 14</p></div>
+      </div>
+      <div class="footer__contact">
+        <div class="footer__caption"><h3>Наша контактная информация:</h3></div>
+        <div class="footer__text">
+          <p><a href="https://mail.google.com/mail/u/0/#inbox">gymnasium23.zt@gmail.com</a></p>
+          <p>+38096123755</p>
+          <p><a href="https://www.facebook.com/gym23.zt/" target="_parent">Ми в фейсбуці</a></p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
