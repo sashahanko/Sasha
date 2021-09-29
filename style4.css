@@ -50,9 +50,9 @@ font-family: sans-serif;
 /*Header*/
 
 .header, .footer{
-  background-color:#95a947;
+  background-color:#008dbd;
   border-style: solid;
-  border-color:#6e8029;
+  border-color:#036a8c;
   border-width: 2px;
 }
 
@@ -65,14 +65,24 @@ font-family: sans-serif;
 
 }
 
-.header__nav li:hover{
-  color: rgba(1,1,1,0.5);
+.header__nav {
+    overflow: hidden;
+    background-color: #008dbd;
+    
+}
+.header__nav a {
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
 }
 
-.header__nav li{
-  color: white;
-  margin: 0px 10px;
-  transition: color 0.2s;
+.header__nav a:hover {
+    background-color: #00BFFF;
+    color: black;
 }
 
 /*Info*/
@@ -86,7 +96,7 @@ font-family: sans-serif;
 }
 
 .info__wrapper{
-  background-color: rgba(149, 169, 71, 0.8);
+  background-color: rgba(0, 141, 189, 0.8);
   padding: 50px 20px;
   box-shadow: rgba(1,1,1,0.5) 0px 0px 20px 15px;
 
