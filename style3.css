@@ -5,6 +5,38 @@
 }
 
 /*Reset Css*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eda74a;
+  border: 6px solid #8c642e;
+  border-radius:25px;
+}
+
+/* Отображение элементов списка бок о бок */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Добавить символ косой черты (/) перед/за каждым элементом списка */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Добавить цвет для всех ссылок внутри списка */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Добавить цвет на наведении курсора мыши */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, summary, time, mark, audio, video, button, content {
 	margin: 0;
@@ -54,6 +86,8 @@ body{
   border-style:solid;
   border-color: #855d28;
   border-width:2px;
+  font-family: 'Arial Black';
+
 }
 
 .header__wrapper{
@@ -120,6 +154,8 @@ body{
   font-size: 1.8em;
   text-align: center;
     color: white;
+      font-family: 'Arial Black';
+
 
 }
 
@@ -140,6 +176,8 @@ body{
   font-weight: bold;
   font-family: sans-serif;
   color: white;
+  font-family: 'Comic Sans MS';
+
 }
 /*Footer*/
 
