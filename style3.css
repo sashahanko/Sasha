@@ -233,7 +233,7 @@ body{
 @media screen and (max-width: 425px) {
 .block__text p {
     font-size: 1.4em;
-   margin-top: 20px;
+    margin-top: 20px;
 }
  .header__nav ul{
   display: flex; flex-wrap: wrap; justify-content: center;}
