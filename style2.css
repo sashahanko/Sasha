@@ -116,13 +116,14 @@ body{
     text-decoration: none;
      -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
+   display: flex; align-items: center; height: 100%;
 }
 
 .header__nav a:hover {
     background-color: #cae660;
     color: black;
      -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: red;
+    -webkit-text-stroke-color: lightgreen;
 }
 /*Info*/
 
@@ -204,4 +205,26 @@ body{
 }
 .footer__text a:hover{
   color: rgba(1,1,1,0.5);
+}
+@media screen and (max-width: 768px) {
+.header__wrapper a{
+  padding: 10px 10px;
+  
+}
+
+}
+@media screen and (max-width: 425px) {
+  .block__img img {
+   width: unset;
+}
+.info__block {
+     overflow-x: scroll;
+}
+.header__nav ul{
+  display: flex; flex-wrap: wrap; justify-content: center;}
+  .footer__wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
 }
