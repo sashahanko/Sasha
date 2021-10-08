@@ -255,5 +255,12 @@ font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
     flex-direction: column;
   }
-  
+  .block__text p{
+ font-size: 2em;
+ font-weight: lighter;
+ font-family: 'PT Sans Narrow', sans-serif;
+ color: white;
+   -webkit-text-stroke-width: 0.2px;
+   -webkit-text-stroke-color: black;
+}
 }
