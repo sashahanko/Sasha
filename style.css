@@ -30,7 +30,7 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
   color: black;
   text-decoration: underline;
-  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-width: 0.01px;
   -webkit-text-stroke-color: white;
 }
 
