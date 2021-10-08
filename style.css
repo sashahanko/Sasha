@@ -28,14 +28,17 @@ ul.breadcrumb li+li:before {
 
 /* Добавить цвет для всех ссылок внутри списка */
 ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: white;
 }
 
 /* Добавить цвет на наведении курсора мыши */
 ul.breadcrumb li a:hover {
-  color: #01447e;
+  color: white;
   text-decoration: underline;
+  
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, summary, time, mark, audio, video, button, content {
@@ -43,6 +46,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	border: 0;
 	zoom: 1;
+
 }
 button{
 	padding: 0;
@@ -95,7 +99,6 @@ font-family: sans-serif;
 
 .header__nav ul{
   display: flex;
-
 }
 
 .header__nav {
@@ -110,12 +113,17 @@ font-family: sans-serif;
     color: black;
     text-align: center;
     padding: 5px 20px;
+    font-size: 20px;
     text-decoration: none;
+     -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
 }
 
 .header__nav a:hover {
     background-color: #cae660;
     color: black;
+     -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
 }
 
 /*Info*/
@@ -168,13 +176,18 @@ font-family: sans-serif;
   font-size: 2.2em;
   font-weight: bold;
    color: white;
+    -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
 }
 .block__text p{
  font-size: 1.5em;
  font-weight: lighter;
  font-family: 'Comic Sans MS';
  color: white;
+   -webkit-text-stroke-width: 0.7px;
+   -webkit-text-stroke-color: black;
 }
+
 
 /*Footer*/
 
