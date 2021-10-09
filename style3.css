@@ -124,7 +124,7 @@ body{
     background-color: #cae660;
     color: black;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: lightgreen;
+    -webkit-text-stroke-color: orange;
 }
 
 /*Info*/
@@ -184,7 +184,7 @@ body{
  font-weight: lighter;
  font-family: 'PT Sans Narrow', sans-serif;
  color: white;
-   -webkit-text-stroke-width: 0.3px;
+   -webkit-text-stroke-width: 0.7px;
    -webkit-text-stroke-color: black;
 }
 /*Footer*/
@@ -249,4 +249,22 @@ body{
     text-align: center;
     flex-direction: column;
   }
+}
+#gotop {
+  position: fixed; 
+  bottom: 25px; 
+  right: 70px;
+  text-align: center;
+  cursor:pointer; 
+  display:none;
+  width: 80px;
+  height: 30px;
+  background: #c0c0c0;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+#gotop:hover {
+  background: #333;
+  color: #fff;
 }

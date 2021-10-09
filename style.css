@@ -30,7 +30,7 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {
   color: black;
   text-decoration: underline;
-  -webkit-text-stroke-width: 0.01px;
+  -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: white;
 }
 
@@ -181,7 +181,7 @@ font-family: 'PT Sans Narrow', sans-serif;
    -webkit-text-stroke-color: black;
 }
 .block__text p{
- font-size: 2em;
+ font-size: 1.7em;
  font-weight: lighter;
  font-family: 'PT Sans Narrow', sans-serif;
  color: white;
@@ -254,13 +254,27 @@ font-family: 'PT Sans Narrow', sans-serif;
     display: flex;
     text-align: center;
     flex-direction: column;
-  }
-  .block__text p{
- font-size: 2em;
- font-weight: lighter;
- font-family: 'PT Sans Narrow', sans-serif;
- color: white;
-   -webkit-text-stroke-width: 0.2px;
-   -webkit-text-stroke-color: black;
+  } 
 }
+#gotop {
+  position: fixed; 
+  bottom: 25px; 
+  right: 70px;
+  text-align: center;
+  cursor:pointer; 
+  display:none;
+  width: 80px;
+  height: 30px;
+  background: #c0c0c0;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+#gotop:hover {
+  background: #333;
+  color: #fff;
+}
+canvas {
+   display: block;
+   margin: 0 auto;
 }
