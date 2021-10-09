@@ -8,8 +8,8 @@
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
-  background-color: #eda74a;
-  border: 6px solid #8c642e;
+  background-color: lightgrey;
+  border: 6px solid #696969;
   border-radius:25px;
 }
 
@@ -62,8 +62,9 @@ a{
 a:visited {
   color: transparent;
 }
-li{
+li {
   list-style: none;
+  padding: 10px;
 }
 
 /*Container*/
@@ -84,9 +85,9 @@ body{
 /*Header*/
 
 .header, .footer{
-  background-color:#a77634;
+   background-color:#696969;
   border-style:solid;
-  border-color: #855d28;
+  border-color:#524b4b;
   border-width:2px;
   font-family: 'Arial Black';
 
@@ -103,28 +104,26 @@ body{
 
 .header__nav {
     overflow: hidden;
-    background-color: #a77634;
+    background-color: #696969;
     
 }
 .header__nav a {
     font-weight: bold;
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 5px 20px;
+    padding: 5px 10px;
     font-size: 20px;
     text-decoration: none;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: white;
-     display: flex; align-items: center; height: 100%;
+      display: flex; align-items: center; height: 100%;
 }
 
 .header__nav a:hover {
-    background-color: #cae660;
+    background-color: #a19f9f;
     color: black;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: orange;
+    -webkit-text-stroke-color: grey;
 }
 
 /*Info*/
@@ -138,7 +137,7 @@ body{
 }
 
 .info__wrapper{
-  background-color: rgba(167, 118, 52, 0.8);
+  background-color:#696969;
   padding: 50px 20px;
   box-shadow: rgba(1,1,1,0.5) 0px 0px 20px 15px;
 }
