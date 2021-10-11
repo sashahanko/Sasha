@@ -209,14 +209,14 @@ img:hover{
   color: rgba(1,1,1,0.5);
 }
 #largeImg {
-  border: solid 1px #ccc;
+  border: solid 3px black;
   width: 950px;
   height: 600px;
   padding: 5px;
 }
 
 #thumbs a {
-  border: solid 1px #ccc;
+  border: solid 3px black;
   width: 100px;
   height: 100px;
   padding: 3px;
@@ -225,7 +225,7 @@ img:hover{
 }
 
 #thumbs a:hover {
-  border-color: #FF9900;
+   border: 3px;
 }
 @media screen and (max-width: 768px) {
 .header__wrapper a{
