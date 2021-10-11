@@ -171,7 +171,7 @@ font-family: 'PT Sans Narrow', sans-serif;
   width: 100%;
   display: flex;
 }
-.block__img:hover{
+img:hover{
   transform: scale(1.3)
 }
 
