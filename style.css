@@ -255,6 +255,9 @@ img:hover{
     text-align: center;
     flex-direction: column;
   } 
+	img:hover{
+  transform: scale(1)
+}
 }
 #gotop {
   position: fixed; 
