@@ -11,6 +11,7 @@ ul.breadcrumb {
   background-color: lightgrey;
   border: 6px solid #696969;
   border-radius:25px;
+  text-align: center;
 }
 
 /* Отображение элементов списка бок о бок */
@@ -29,16 +30,14 @@ ul.breadcrumb li+li:before {
 /* Добавить цвет для всех ссылок внутри списка */
 ul.breadcrumb li a {
   color: black;
-  text-decoration: underline;
+  font-family: 'PT Sans Narrow', sans-serif;
   -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: grey;
 }
 
 /* Добавить цвет на наведении курсора мыши */
 ul.breadcrumb li a:hover {
   color: white;
-  text-decoration: underline;
-  
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, summary, time, mark, audio, video, button, content {
@@ -91,11 +90,11 @@ font-family: 'PT Sans Narrow', sans-serif;
   border-style:solid;
   border-color:#524b4b;
   border-width:2px;
-  font-family: 'Arial Black';
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .header__wrapper{
-  padding: 30px 0px;
+    padding: 30px 50px;
 }
 
 .header__nav ul{
@@ -113,17 +112,15 @@ font-family: 'PT Sans Narrow', sans-serif;
     display: block;
     color: white;
     text-align: center;
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 10px 44px;
+    font-size: 25px;
     text-decoration: none;
       display: flex; align-items: center; height: 100%;
 }
 
 .header__nav a:hover {
-    background-color: #a19f9f;
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: grey;
+   color: black;
+   transition: 0.3s;
 }
 
 /*Info*/
@@ -134,7 +131,11 @@ font-family: 'PT Sans Narrow', sans-serif;
   background-position: center;
   background-size: cover;
   padding: 30px 0px;
+
+
+
 }
+
 
 .info__wrapper{
   background-color:#696969;
@@ -145,6 +146,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 
 .info__blocks{
   margin-top: 50px;
+
 }
 
 .info__block{
@@ -164,16 +166,13 @@ font-family: 'PT Sans Narrow', sans-serif;
   color: white;
   font-family: 'Arial Black';
 
-
 }
 
 .block__img img{
   width: 100%;
   display: flex;
 }
-img:hover{
-  transform: scale(1.3)
-}
+
 
 .block__text span{
   font-size: 2.2em;
@@ -235,7 +234,12 @@ img:hover{
    margin-top: 20px;
 }
  .header__nav ul{
-  display: flex; flex-wrap: wrap; justify-content: center;}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
  .info__block{
   display: unset;
 }
@@ -255,9 +259,6 @@ img:hover{
     text-align: center;
     flex-direction: column;
   } 
-	img:hover{
-  transform: scale(1)
-}
 }
 #gotop {
   position: fixed; 

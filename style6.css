@@ -37,8 +37,6 @@ ul.breadcrumb li a {
 /* Добавить цвет на наведении курсора мыши */
 ul.breadcrumb li a:hover {
   color: white;
-
-  
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, summary, time, mark, audio, video, button, content {
 	margin: 0;
@@ -74,17 +72,17 @@ li {
   margin: 0 auto !important;
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
 /*OverAll*/
 body{
-  font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
+  font-family: sans-serif;
 }
 
 /*Header*/
 
-.header, .footer{
+.header, .footer {
    background-color:#696969;
   border-style:solid;
   border-color:#524b4b;
@@ -122,20 +120,19 @@ body{
    transition: 0.3s;
 }
 
-
 /*Info*/
 
 .info{
-  background-image: url("image/bc.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 30px 0px;
+    background-image: url("image/bc.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0px;
 
 }
 
 .info__wrapper{
-  background-color:#696969;
+  background-color: #696969;
   padding: 50px 20px;
   box-shadow: rgba(1,1,1,0.5) 0px 0px 20px 15px;
 }
@@ -155,28 +152,61 @@ body{
   margin-top: 20px;
 }
 
-.info__title{
-  font-size: 1.8em;
+.info__title h1{
+  color:white;
+  font-size: 3em;
   text-align: center;
-    color: white;
-      font-family: 'Arial Black';
-
-
+    font-family: 'Arial Black';
 }
-
-.block__text span{
-  font-size: 2.2em;
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
-   color: white;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
+  font-size: 20px;
 }
-.block__text p{
- font-size: 1.5em;
- font-weight: lighter;
- font-family: 'PT Sans Narrow', sans-serif;
- color: white;
+.registerbtn:hover{
+  opacity: 0.2s;
+  background-color: lightgreen;
+  color: grey;
 }
+.information p{
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.block__img img{
+  width: 205%;
+  height: 600;
+  display: flex;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
 /*Footer*/
 
 .footer__wrapper{
@@ -209,7 +239,6 @@ body{
 .footer__text a{
   color: white;
   transition: color 0.2s;
-
 }
 .footer__text a:hover{
   color: rgba(1,1,1,0.5);
@@ -219,42 +248,20 @@ body{
   padding: 10px 10px;
   
 }
-}
-@media screen and (max-width: 425px) {
-.block__text p {
-    font-size: 1.4em;
-    margin-top: 20px;
-}
- .header__nav ul{
-  display: flex; flex-wrap: wrap; justify-content: center;}
- .info__block{
-  display: unset;
-}
-.block__text span{
-    margin-top: 20px;
 
 }
-.footer__wrapper{
+@media screen and (max-width: 425px) {
+  .block__img img {
+   width: unset;
+}
+.info__block {
+     overflow-x: scroll;
+}
+.header__nav ul{
+  display: flex; flex-wrap: wrap; justify-content: center;}
+  .footer__wrapper{
     display: flex;
     text-align: center;
     flex-direction: column;
   }
-}
-#gotop {
-  position: fixed; 
-  bottom: 25px; 
-  right: 70px;
-  text-align: center;
-  cursor:pointer; 
-  display:none;
-  width: 80px;
-  height: 30px;
-  background: #c0c0c0;
-  line-height: 30px;
-  border-radius: 5px;
-}
-
-#gotop:hover {
-  background: #333;
-  color: #fff;
 }
