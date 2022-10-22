@@ -12,6 +12,8 @@
 }
 .body a{
 	text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align:center;
 }
 .body h1, h2{
 	text-align: center;
