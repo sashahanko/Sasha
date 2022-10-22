@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Галерея</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.png">
+</head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: pink; 
+}
+h1{
+   font-family: 'PT Sans Narrow', sans-serif;
+   text-align: center;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: center;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+.column p{
+    text-align: center;
+}
+@media screen and (max-width: 425px) {
+    h1{
+        text-align: center;
+        
+    }
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+   <h1>Моя зайка :D</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <p><img src="1.jpeg" style="width:30%px; height:30%px;">
+    <img src="2.jpeg" style="width:30%px; height:30%px;">
+    <img src="3.jpeg" style="width:30%px; height:30%px;">
+    <img src="4.jpeg" style="width:30%px; height:30%px;">
+    <img src="5.jpeg" style="width:30%px; height:30%px;">
+    <img src="6.jpg" style="width:30%px; height:30%px;">
+    <img src="7.jpeg" style="width:30%x; height:30%px;">
+    <img src="8.jpeg" style="width:30%x; height:30%px;"></p>
+  </div>
+</div>
+</body>
+</html>
+
+
+
