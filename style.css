@@ -12,7 +12,6 @@
 }
 .body a{
 	text-decoration: none;
-
 }
 .body h1, h2{
 	text-align: center;
@@ -28,7 +27,8 @@
 .img img{
 	width: 500px;
 	height:500px;
-    
+    border:2px solid black;
+    border-radius: 250px;
 }
 .img p{
 	text-align: center;
